@@ -41,7 +41,7 @@ print(os.getenv("GROQ_API_KEY"))
 
 #  genrative model  using Gemini API
 def genrative_model(train_text,query):
-    GOOGLE_API_KEY = "AIzaSyBWbxD6T1RZU45V3EerkMnNjwU7w8r5NL0"
+    GOOGLE_API_KEY = ""
     genai.configure(api_key=GOOGLE_API_KEY)
 
     model = genai.GenerativeModel('gemini-pro')
